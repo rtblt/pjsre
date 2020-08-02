@@ -3,5 +3,5 @@ services:
   ansible:
     build: .
     volumes:
-      - ./workspace:/workspace
+      - ./share:/work
     tty: true
